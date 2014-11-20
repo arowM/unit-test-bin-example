@@ -38,7 +38,7 @@ test-suite doctest
   ghc-options:          -threaded -Wall
   main-is:              doctests.hs
   build-depends:        base
-                      , doctest >= 0.9 && <1.0
+                      , doctest >= 0.9
 
 test-suite spec
   type:                 exitcode-stdio-1.0
@@ -48,8 +48,8 @@ test-suite spec
   main-is:              Spec.hs
   other-modules:        Codec.Base64Spec
   build-depends:        base
-                      , hspec >=2.0 && <2.1
-                      , QuickCheck >=2.7 && <2.8
+                      , hspec >=2.0
+                      , QuickCheck >=2.7
                       , unit-test-bin-example
 
 source-repository head
