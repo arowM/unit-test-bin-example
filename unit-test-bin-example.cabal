@@ -19,7 +19,7 @@ library
   ghc-options:       -threaded -O2 -Wall
   exposed-modules:   Codec.Base64
   hs-source-dirs:    src
-  build-depends:     base >=4.6 && <4.7
+  build-depends:     base >=4.6
                    , array >=0.4 && <0.5
 
 executable unit-test-bin-example
