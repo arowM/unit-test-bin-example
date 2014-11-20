@@ -27,7 +27,7 @@ executable unit-test-bin-example
   ghc-options:         -threaded -O2 -Wall
   main-is:             Main.hs
   -- hs-source-dirs:   unit-test-bin-example
-  build-depends:       base >=4.6 && <4.7
+  build-depends:       base
                      , unit-test-bin-example
 
 
