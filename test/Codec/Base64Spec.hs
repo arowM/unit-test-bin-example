@@ -1,4 +1,4 @@
-module Base64Spec where
+module Codec.Base64Spec where
 
 import Codec.Base64
 import Data.Bits
